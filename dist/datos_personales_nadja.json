@@ -1,0 +1,196 @@
+{
+    "perfil": [
+        {
+            "avatar": true,
+            "avatar_img": "pendiente",
+            "nombre1": "NADJA",
+            "nombre2": "VILLARROEL NAVARRO",
+            "intro_perfil": "Mi experiencia en modelado 3D, proyectos interdisciplinarios, fotografía de producto, enseñanza y diseño digital me permite crear soluciones web con una fuerte base visual, técnica y centrada en el usuario.Actualmente en transición profesional hacia el área tecnológica, con formación formal en desarrollo de aplicaciones web, busco aportar mi visión creativa, orden metodológico y ganas de aprender en entornos colaborativos.",
+            "descripcion_perfil": "Desarrolladora Front-End con formación en Diseño Industrial",
+            "edad": 37,
+            "email": "nadja.villarroel.n@gmail.com",
+            "direccion": {
+                "ciudad": "Santiago, Chile",
+                "calle": "Víctor Manuel",
+                "numero": 1442,
+                "codigo_postal": 8361575
+            },
+            "estado civil": {
+                "soltera": true,
+                "casada": false,
+                "hijos": false
+            },
+            "redes": {
+                "linkedin": "https://www.linkedin.com/in/nadjavillarroel",
+                "github": "https://github.com/anemonadja",
+                "behance": "https://behance.net/pendiente"
+            }
+        }
+    ],
+    "estudios": [
+        {
+            "alias": "colegio",
+            "foto": "Ruta pendiente",
+            "lugar": "Colegio Particular Antonio Rendic",
+            "ciudad": "Antofagasta, Chile",
+            "asunto": "Enseñanza Media",
+            "descripcion": "Texto pendiente",
+            "años": "2003 - 2005"
+        },
+        {
+            "alias": "universidad",
+            "foto": "Ruta pendiente",
+            "lugar": "Universidad de Chile, FAU",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Diseño Industrial",
+            "descripcion": "Texto pendiente",
+            "años": "2007 - 2013"
+        },
+        {
+            "alias": "estudioUC",
+            "foto": "Ruta pendiente",
+            "lugar": "Centro de Extensión Universidad Católica, PUC",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Curso \"Herramientas para el diseño y gestión de proyectos\"",
+            "descripcion": "Texto pendiente",
+            "años": "2014"
+        },
+        {
+            "alias": "estudioFEN",
+            "foto": "Ruta pendiente",
+            "lugar": "Universidad de Chile, FEN",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Diplomado \"Emprendimiento y Administración de Empresas\"",
+            "descripcion": "Texto pendiente",
+            "años": "2015"
+        },
+        {
+            "alias": "estudioCapitalHumano",
+            "foto": "Ruta pendiente",
+            "lugar": "Becas Capital Humano, CORFO",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Curso \"Desarrollo de Aplicaciones Front - End\"",
+            "descripcion": "Texto pendiente",
+            "años": "oct2024 - mar2025"
+        },
+        {
+            "alias": "estudioSoftwareLibre",
+            "foto": "Ruta pendiente",
+            "lugar": "Asociación de Informáticos UTE, USACH",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Taller Front - End 2025",
+            "descripcion": "Texto pendiente",
+            "años": "may2025 - ago2025"
+        }
+    ],
+    "experiencia_diseno": [
+        {
+            "alias": "expDis1",
+            "foto": "Ruta pendiente",
+            "lugar": "Universidad de Chile, FAU",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Monitora Geometría I para Diseño Industrial",
+            "años": "2010"
+        },
+        {
+            "alias": "expDis2",
+            "foto": "Ruta pendiente",
+            "lugar": "Ecodiseño.SA",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Diseño / Práctica profesional",
+            "años": "2012"
+        },
+        {
+            "alias": "expDis3",
+            "foto": "Ruta pendiente",
+            "lugar": "Facultad de Ingeniería, PUC",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Ayudante de Diseño Industrial para ingeniería",
+            "años": "2013 - 2018"
+        },
+        {
+            "alias": "expDis4",
+            "foto": "Ruta pendiente",
+            "lugar": "LAMACRE S.A",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Fundadora / Diseño y Gestión",
+            "años": "2013 - 2018"
+        },
+        {
+            "alias": "expDis5",
+            "foto": "Ruta pendiente",
+            "lugar": "Freelance",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Diseño, Fabricación digital, Maquetas y prototipos, producción de obra para artistas",
+            "años": "2014 - a la fecha"
+        },
+        {
+            "alias": "expDis6",
+            "foto": "Ruta pendiente",
+            "lugar": "Universidad Gabriela Mistral",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Profesora Adjunta \"Costos y Evaluación de Proyectos\"",
+            "años": "2016"
+        },
+        {
+            "alias": "expDis7",
+            "foto": "Ruta pendiente",
+            "lugar": "Smartraining",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Product Owner",
+            "años": "2017-2018"
+        },
+        {
+            "alias": "expDis8",
+            "foto": "Ruta pendiente",
+            "lugar": "Helmlinger Joyas, LTDA.",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Diseñadora industrial, fotografía, creadora de contenido, administración digital",
+            "años": "2018 a la fecha"
+        }
+    ],
+    "intereses_diseno": ["Impresión 3D, Fabricación CAD/CAM, Prototipado digital, Diseño y Fabricación de series cortas, Diseño de prótesis/órtesis", "Diseño 3D de joyería"],
+    "herramientas_diseno": ["Rhinoceros", "Fusion 360", "Matrixgold", "Blender", "Grasshopper", "Touchdesigner", "Adobe Suite"],
+    "proyectos_diseno": "Pendiente",
+    "experiencia_tech": "Texto Intro a proyectos Pendiente",
+    "intereses_tech": ["Ciberseguridad", "Ethical hacking", "Red Team", "Arquitectura Cloud", "Realidad virtual", "Realidad Aumentada"],
+    "herramientas_tech": ["HTML", "CSS", "JavaScript", "React"],
+    "proyectos_tech": "Pendiente",
+    "experiencia_otros": [
+        {
+            "alias": "expOtr1",
+            "lugar": "Wall Street Institute",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Curso Inglés, Nivel Intermedio",
+            "años": "2011 - 2012"
+        },
+        {
+            "alias": "expOtr2",
+            "lugar": "Metro Quinta Normal",
+            "ciudad": "Santiago, Chile",
+            "asunto": "\"Banco Zapatero\" - Producto en stand Universidad de Chile, Sumar+ y Un Techo Para Chile, Santiago Diseño",
+            "años": "2011"
+        },
+        {
+            "alias": "expOtr3",
+            "lugar": "Fundación Telefónica",
+            "ciudad": "Santiago, Chile",
+            "asunto": "\"Concordia\" - Pieza gráfica del proyecto en stand Sumar+ y Un Techo para Chile, Santiago Diseño",
+            "años": "2011"
+        },
+        {
+            "alias": "expOtr4",
+            "lugar": "Instituto Paulina Diard",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Curso costura y Patronaje",
+            "años": "2014"
+        },
+        {
+            "alias": "expOtr5",
+            "lugar": "DGNB, Sistema Alemán de certificación para la Construcción Sustentable",
+            "ciudad": "Santiago, Chile",
+            "asunto": "Curso Asesora Certificación",
+            "años": "2014"
+        }
+    ]
+}
