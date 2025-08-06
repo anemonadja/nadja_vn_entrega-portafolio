@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "homepage": "https://anemonadja.github.io/portafolio_conjunto"
+    "homepage": "https://anemonadja.github.io/nadja_vn_entrega-portafolio"
   },
   "dependencies": {
     "axios": "^1.11.0",

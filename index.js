@@ -9,13 +9,12 @@ app.use((req, res, next) => {
   next();
 });
 
-// Función para leer tu JSON una vez
+
 const leerDatos = () => {
   const data = fs.readFileSync('./datos_personales_nadja.json', 'utf8');
   return JSON.parse(data);
 };
 
-// Ruta raíz (devuelve todo el JSON)
 app.get('/api', (req, res) => {
   try {
     const datos = leerDatos();
@@ -25,7 +24,7 @@ app.get('/api', (req, res) => {
   }
 });
 
-// Ruta para el perfil
+
 app.get('/api/perfil', (req, res) => {
   try {
     const datos = leerDatos();
@@ -35,7 +34,6 @@ app.get('/api/perfil', (req, res) => {
   }
 });
 
-// Ruta para estudios, ENDPOINTS
 app.get('/api/estudios', (req, res) => {
   try {
     const datos = leerDatos();
@@ -45,7 +43,6 @@ app.get('/api/estudios', (req, res) => {
   }
 });
 
-// Ruta para experiencia en diseño
 app.get('/api/experiencia-diseno', (req, res) => {
   try {
     const datos = leerDatos();
@@ -55,7 +52,6 @@ app.get('/api/experiencia-diseno', (req, res) => {
   }
 });
 
-// Ruta para experiencia en otros ámbitos
 app.get('/api/experiencia-otros', (req, res) => {
   try {
     const datos = leerDatos();
@@ -65,7 +61,6 @@ app.get('/api/experiencia-otros', (req, res) => {
   }
 });
 
-// Ruta para textos pendientes
 app.get('/api/proyectos-diseno', (req, res) => {
   try {
     const datos = leerDatos();
@@ -93,7 +88,6 @@ app.get('/api/experiencia-tech', (req, res) => {
   }
 });
 
-// Iniciar servidor
 app.listen(PORT, () => {
   console.log(`Servidor API corriendo en http://localhost:${PORT}`);
 });
