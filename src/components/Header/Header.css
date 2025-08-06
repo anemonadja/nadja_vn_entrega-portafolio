@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(82, 77, 97, 0);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.header.scrolled {
+  background-color: rgba(82, 77, 97, 0.4);;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+  text-shadow: 0.5px 0.5px 3px #524D61;
+  padding-left: 1rem;
+}
+
+.logo-img {
+  width: 50px;
+  height: 40px;
+  object-fit: contain;
+  text-shadow: 1px 1px 5px #524D61;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  z-index: 10;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  margin-right: 50px;
+}
+
+.nav-link:visited {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #BC9FD9;
+}
+
+.nav-link:visited:hover {
+  color: #BC9FD9;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 11;
+  padding-right: 1.5rem;
+}
+
+.hamburger .bar {
+  width: 35px;
+  height: 3.5px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.hamburger:hover .bar{
+  background-color: #B5FC36;
+}
+
+.hamburger.open .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background-color: #524D61;
+    
+    flex-direction: column;
+    width: 100%;
+    align-items: end;
+    display: none;
+  }
+
+  .nav a{
+    align-content: center;
+    margin: 10px 40px;
+  }
+  
+  .nav.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}

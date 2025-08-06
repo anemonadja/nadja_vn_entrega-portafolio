@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #BCFFB0;
+    text-align: center;
+    background-color: #524D61;
+    opacity: 0.6;
+    width: 100%;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+
+@media (max-width: 768px) {
+    footer {
+            justify-content: center;
+            opacity: 0.45;
+        }
+}

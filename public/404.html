@@ -1,0 +1,8 @@
+<script>
+  // Redirige a la SPA (index.html) conservando la ruta
+  const redirect = sessionStorage.redirect;
+  delete sessionStorage.redirect;
+  if (redirect && redirect !== location.href) {
+    location.replace(redirect);
+  }
+</script>
